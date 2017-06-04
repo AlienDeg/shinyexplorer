@@ -5,8 +5,6 @@ library("MASS")
 data(geyser)
 library(hexbin)
 
-
-
 function(input, output, session){
   
 

@@ -13,7 +13,6 @@ shinyUI(
                                        tags$table(
               
                
-               
                tags$tr(tags$td( colspan = 3 ,align = "center" ,tags$table(tags$tr(tags$td(tags$span( style = "font-size:200%", 'Graphical primitves')))) )),
                tags$tr(tags$td(tags$tr(tags$td(actionLink("link_to_tabpanel_geom_ribbon",tags$img(src = 'geom_ribbon.png'))), tags$td(actionLink("link_to_tabpanel_geom_polygon",tags$img(src = 'geom_polygon.png'))),tags$td(actionLink("link_to_tabpanel_geom_segment",tags$img(src = 'geom_segment.png')))),
                                 tags$tr(tags$td(align = "center",tags$span('geom_ribbon')), tags$td(align = "center",tags$span('geom_polygon')),tags$td(align = "center",tags$span('geom_segment'))) )),
