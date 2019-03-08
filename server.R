@@ -221,7 +221,7 @@ function(input, output, session){
     paste('sunspotyear <- data.frame(
     Year = as.numeric(time(sunspot.year)),
     Sunspots = as.numeric(sunspot.year)
-  ) \n \n', 'ggplot(sunspotyear, aes(factor(cyl))) + \n geom_area(alpha = ',input$geom_area_element1,',\n color = "',input$geom_area_element2,'",\n fill = "',input$geom_area_element3,'",\n linetype = "',input$geom_area_element4,'",\n size = ',input$geom_area_element5,')',sep='' )
+  ) \n \n', 'ggplot(sunspotyear, aes(x = Year, y=Sunspots)) + \n geom_area(alpha = ',input$geom_area_element1,',\n color = "',input$geom_area_element2,'",\n fill = "',input$geom_area_element3,'",\n linetype = "',input$geom_area_element4,'",\n size = ',input$geom_area_element5,')',sep='' )
   })
   
   
